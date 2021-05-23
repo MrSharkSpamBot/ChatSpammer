@@ -51,13 +51,13 @@ $ python3 ShadowSharkChatSpammer.py
         Created by Mr. Shark Spam Bot.
 
 Please enter your message.
-♀♀♀> get spammed
+> get spammed
 Please enter the number of times you want your message to be sent.
-♀♀♀> 100
+> 100
 Please enter the x y coordinates of where your message should be typed.(ex: 1200 320)
-♀♀♀> 1200 320
+> 1200 320
 Please enter the number of seconds you want to leave for yourself to open the chat.
-♀♀♀> 5
+> 5
 You have 1 seconds to open the chat in a browser...
 
 [+] Possibly sent "get spammed" 100 times.
