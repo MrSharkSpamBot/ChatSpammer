@@ -1,5 +1,9 @@
-#! python3
-'''This is a chat spamming code. Created by Mr. Shark Spam Bot.'''
+# -*- coding: utf-8 -*-
+'''
+A full fledged chat spamming tool.
+
+@author: Mr. Shark Spam Bot
+'''
 import time
 import sys
 import pyautogui
@@ -48,13 +52,13 @@ try:
 \tCreated by Mr. Shark Spam Bot.
     ''')
     print(MESSAGE_PRINT)
-    spam_message = input('\x0c\x0c\x0c> ')
+    spam_message = input('> ')
     print(NUMBER_PRINT)
-    sending_number = input('\x0c\x0c\x0c> ')
+    sending_number = input('> ')
     print(XY_PRINT)
-    coordinates = input('\x0c\x0c\x0c> ')
+    coordinates = input('> ')
     print(SEC_PRINT)
-    opening_time = input('\x0c\x0c\x0c> ')
+    opening_time = input('> ')
 
     # Check for valid input.
     while True:
@@ -62,14 +66,14 @@ try:
         if spam_message:
             break
         print(MESSAGE_PRINT + '(make sure you type something in!!!)')
-        spam_message = input('\x0c\x0c\x0c> ')
+        spam_message = input('> ')
 
     while True:
         sending_number = sending_number.strip()
         if sending_number.isdecimal():
             break
         print(number_print + valid_print)
-        sending_number = input('\x0c\x0c\x0c> ')
+        sending_number = input('> ')
 
     coordinates = coordinates.split()
     while True:
@@ -77,7 +81,7 @@ try:
             x, y = coordinates[0], coordinates[1]
             break
         print(xy_print + valid_print)
-        coordinates = input('\x0c\x0c\x0c> ')
+        coordinates = input('> ')
         coordinates = coordinates.split()
 
     while True:
@@ -86,23 +90,23 @@ try:
                 break
             if not int(x) <= pyautogui.size()[0]:
                 print(x_print + valid_print)
-                x = input('\x0c\x0c\x0c> ')
+                x = input('> ')
             if not int(y) <= pyautogui.size()[1]:
                 print(y_print + valid_print)
-                y = input('\x0c\x0c\x0c> ')
+                y = input('> ')
         if not x.isdecimal():
             print(x_print + valid_print)
-            x = input('\x0c\x0c\x0c> ')
+            x = input('> ')
         if not y.isdecimal():
             print(y_print + valid_print)
-            y = input('\x0c\x0c\x0c> ')
+            y = input('> ')
 
     while True:
         opening_time = opening_time.strip()
         if opening_time.isdecimal():
             break
         print(sec_print + valid_print)
-        opening_time = input('\x0c\x0c\x0c> ')
+        opening_time = input('> ')
 
     # Tell user to switch screen.
     opening_time = int(opening_time)
