@@ -6,14 +6,14 @@ A full fledged chat spamming tool written in pure python3.
 ```
 $ sudo apt-get install python3 python3-pip scrot python3-tk python3-dev xsel git
 $ git clone https://github.com/MrSharkSpamBot/ShadowSharkChatSpammer.git
-$ cd Shadow-Shark-Chat-Spammer/
+$ cd ShadowSharkChatSpammer/
 $ pip3 install -r requirements.txt
 ```
 ### Arch
 ```
 $ sudo pacman -S python python-pip git scrot tk xsel
 $ git clone https://github.com/MrSharkSpamBot/ShadowSharkChatSpammer.git
-$ cd Shadow-Shark-Chat-Spammer/
+$ cd ShadowSharkChatSpammer/
 $ pip3 install -r requirements.txt
 ```
 
