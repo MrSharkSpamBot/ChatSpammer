@@ -47,3 +47,4 @@ Please enter the number of seconds you want to leave for yourself to open the ch
 You have 1 seconds to open the chat in a browser...
 
 [+] Possibly sent "get spammed" 100 times.
+```
