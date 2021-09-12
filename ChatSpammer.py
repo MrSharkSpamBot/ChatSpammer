@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 A full fledged chat spamming tool.
 
 @author: Mr. Shark Spam Bot
-'''
+"""
 import time
 import sys
 import pyautogui
